@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5286A2492A5ECBDE00551A9B /* TabViewAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5286A2482A5ECBDE00551A9B /* TabViewAppApp.swift */; };
+		5286A24B2A5ECBDE00551A9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5286A24A2A5ECBDE00551A9B /* ContentView.swift */; };
+		5286A24D2A5ECBE000551A9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5286A24C2A5ECBE000551A9B /* Assets.xcassets */; };
+		5286A2502A5ECBE000551A9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5286A24F2A5ECBE000551A9B /* Preview Assets.xcassets */; };
+		5286A25F2A5ECFC400551A9B /* Stefanos Tsitsipas.png in Resources */ = {isa = PBXBuildFile; fileRef = 5286A2572A5ECFC400551A9B /* Stefanos Tsitsipas.png */; };
+		5286A2602A5ECFC400551A9B /* Rafael Nadal.png in Resources */ = {isa = PBXBuildFile; fileRef = 5286A2582A5ECFC400551A9B /* Rafael Nadal.png */; };
+		5286A2612A5ECFC400551A9B /* Dominic Thiem.png in Resources */ = {isa = PBXBuildFile; fileRef = 5286A2592A5ECFC400551A9B /* Dominic Thiem.png */; };
+		5286A2622A5ECFC400551A9B /* Matteo Berrettini.png in Resources */ = {isa = PBXBuildFile; fileRef = 5286A25A2A5ECFC400551A9B /* Matteo Berrettini.png */; };
+		5286A2632A5ECFC400551A9B /* Novak Djokovic.png in Resources */ = {isa = PBXBuildFile; fileRef = 5286A25B2A5ECFC400551A9B /* Novak Djokovic.png */; };
+		5286A2642A5ECFC400551A9B /* Roger Federer.png in Resources */ = {isa = PBXBuildFile; fileRef = 5286A25C2A5ECFC400551A9B /* Roger Federer.png */; };
+		5286A2652A5ECFC400551A9B /* Alexander Zverev.png in Resources */ = {isa = PBXBuildFile; fileRef = 5286A25D2A5ECFC400551A9B /* Alexander Zverev.png */; };
+		5286A2662A5ECFC400551A9B /* Daniil Medvedev.png in Resources */ = {isa = PBXBuildFile; fileRef = 5286A25E2A5ECFC400551A9B /* Daniil Medvedev.png */; };
+		5286A2682A5ED01500551A9B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5286A2672A5ED01500551A9B /* Player.swift */; };
+		5286A26A2A5EE23300551A9B /* PlayerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5286A2692A5EE23300551A9B /* PlayerDetail.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5286A2452A5ECBDE00551A9B /* TabViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5286A2482A5ECBDE00551A9B /* TabViewAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewAppApp.swift; sourceTree = "<group>"; };
+		5286A24A2A5ECBDE00551A9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5286A24C2A5ECBE000551A9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5286A24F2A5ECBE000551A9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5286A2572A5ECFC400551A9B /* Stefanos Tsitsipas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stefanos Tsitsipas.png"; sourceTree = "<group>"; };
+		5286A2582A5ECFC400551A9B /* Rafael Nadal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rafael Nadal.png"; sourceTree = "<group>"; };
+		5286A2592A5ECFC400551A9B /* Dominic Thiem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dominic Thiem.png"; sourceTree = "<group>"; };
+		5286A25A2A5ECFC400551A9B /* Matteo Berrettini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Matteo Berrettini.png"; sourceTree = "<group>"; };
+		5286A25B2A5ECFC400551A9B /* Novak Djokovic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Novak Djokovic.png"; sourceTree = "<group>"; };
+		5286A25C2A5ECFC400551A9B /* Roger Federer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Roger Federer.png"; sourceTree = "<group>"; };
+		5286A25D2A5ECFC400551A9B /* Alexander Zverev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Alexander Zverev.png"; sourceTree = "<group>"; };
+		5286A25E2A5ECFC400551A9B /* Daniil Medvedev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Daniil Medvedev.png"; sourceTree = "<group>"; };
+		5286A2672A5ED01500551A9B /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		5286A2692A5EE23300551A9B /* PlayerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5286A2422A5ECBDE00551A9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5286A23C2A5ECBDD00551A9B = {
+			isa = PBXGroup;
+			children = (
+				5286A2472A5ECBDE00551A9B /* TabViewApp */,
+				5286A2462A5ECBDE00551A9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5286A2462A5ECBDE00551A9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5286A2452A5ECBDE00551A9B /* TabViewApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5286A2472A5ECBDE00551A9B /* TabViewApp */ = {
+			isa = PBXGroup;
+			children = (
+				5286A2482A5ECBDE00551A9B /* TabViewAppApp.swift */,
+				5286A2672A5ED01500551A9B /* Player.swift */,
+				5286A24A2A5ECBDE00551A9B /* ContentView.swift */,
+				5286A2692A5EE23300551A9B /* PlayerDetail.swift */,
+				5286A24C2A5ECBE000551A9B /* Assets.xcassets */,
+				5286A24E2A5ECBE000551A9B /* Preview Content */,
+			);
+			path = TabViewApp;
+			sourceTree = "<group>";
+		};
+		5286A24E2A5ECBE000551A9B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5286A2562A5ECFC400551A9B /* Tennis */,
+				5286A24F2A5ECBE000551A9B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5286A2562A5ECFC400551A9B /* Tennis */ = {
+			isa = PBXGroup;
+			children = (
+				5286A2572A5ECFC400551A9B /* Stefanos Tsitsipas.png */,
+				5286A2582A5ECFC400551A9B /* Rafael Nadal.png */,
+				5286A2592A5ECFC400551A9B /* Dominic Thiem.png */,
+				5286A25A2A5ECFC400551A9B /* Matteo Berrettini.png */,
+				5286A25B2A5ECFC400551A9B /* Novak Djokovic.png */,
+				5286A25C2A5ECFC400551A9B /* Roger Federer.png */,
+				5286A25D2A5ECFC400551A9B /* Alexander Zverev.png */,
+				5286A25E2A5ECFC400551A9B /* Daniil Medvedev.png */,
+			);
+			path = Tennis;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5286A2442A5ECBDE00551A9B /* TabViewApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5286A2532A5ECBE000551A9B /* Build configuration list for PBXNativeTarget "TabViewApp" */;
+			buildPhases = (
+				5286A2412A5ECBDE00551A9B /* Sources */,
+				5286A2422A5ECBDE00551A9B /* Frameworks */,
+				5286A2432A5ECBDE00551A9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabViewApp;
+			productName = TabViewApp;
+			productReference = 5286A2452A5ECBDE00551A9B /* TabViewApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5286A23D2A5ECBDD00551A9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5286A2442A5ECBDE00551A9B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 5286A2402A5ECBDD00551A9B /* Build configuration list for PBXProject "TabViewApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5286A23C2A5ECBDD00551A9B;
+			productRefGroup = 5286A2462A5ECBDE00551A9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5286A2442A5ECBDE00551A9B /* TabViewApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5286A2432A5ECBDE00551A9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5286A2642A5ECFC400551A9B /* Roger Federer.png in Resources */,
+				5286A2622A5ECFC400551A9B /* Matteo Berrettini.png in Resources */,
+				5286A2502A5ECBE000551A9B /* Preview Assets.xcassets in Resources */,
+				5286A2662A5ECFC400551A9B /* Daniil Medvedev.png in Resources */,
+				5286A25F2A5ECFC400551A9B /* Stefanos Tsitsipas.png in Resources */,
+				5286A2612A5ECFC400551A9B /* Dominic Thiem.png in Resources */,
+				5286A2602A5ECFC400551A9B /* Rafael Nadal.png in Resources */,
+				5286A24D2A5ECBE000551A9B /* Assets.xcassets in Resources */,
+				5286A2632A5ECFC400551A9B /* Novak Djokovic.png in Resources */,
+				5286A2652A5ECFC400551A9B /* Alexander Zverev.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5286A2412A5ECBDE00551A9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5286A24B2A5ECBDE00551A9B /* ContentView.swift in Sources */,
+				5286A26A2A5EE23300551A9B /* PlayerDetail.swift in Sources */,
+				5286A2682A5ED01500551A9B /* Player.swift in Sources */,
+				5286A2492A5ECBDE00551A9B /* TabViewAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5286A2512A5ECBE000551A9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5286A2522A5ECBE000551A9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5286A2542A5ECBE000551A9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TabViewApp/Preview Content\"";
+				DEVELOPMENT_TEAM = NGPSQV4UA8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fakharaldin.TabViewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5286A2552A5ECBE000551A9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TabViewApp/Preview Content\"";
+				DEVELOPMENT_TEAM = NGPSQV4UA8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fakharaldin.TabViewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5286A2402A5ECBDD00551A9B /* Build configuration list for PBXProject "TabViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5286A2512A5ECBE000551A9B /* Debug */,
+				5286A2522A5ECBE000551A9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5286A2532A5ECBE000551A9B /* Build configuration list for PBXNativeTarget "TabViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5286A2542A5ECBE000551A9B /* Debug */,
+				5286A2552A5ECBE000551A9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5286A23D2A5ECBDD00551A9B /* Project object */;
+}
